@@ -927,14 +927,14 @@ sns.distplot(NKE['Daily Return'].dropna(), bins=100, color='B')
 # El cuantil empírico 0,05 de los rendimientos diarios de las acciones de NKE está en -0,018. Esto significa que, con un 95% de confianza, nuestra peor pérdida diaria no superará el 1,8%. Si tenemos una inversión de 1 millón de dólares, nuestro VaR diario del 5% es de 0,018 * 1.000.000 = 18.000 dólares.
 # ----------------------------------------------------
 
-# ### Questions
+ ### Preguntas
 #
-# In this analysis, I would like to explore the following questions.
+# En este análisis, me gustaría explorar las siguientes preguntas.
 #
-# 1. What was the change in price of the stock over time?
-# 2. What was the daily return of the stock on average?
-# 3. What was the moving average of the various stocks?
-# 4. What was the correlation between different stocks' closing prices?
-# 4. What was the correlation between different stocks' daily returns?
-# 5. How much value do we put at risk by investing in a particular stock?
-# 6. How can we attempt to predict future stock behavior?
+# 1. ¿Cuál fue el cambio en el precio de las acciones a lo largo del tiempo?
+# 2. ¿Cuál fue el rendimiento diario de la acción en promedio?
+# 3. ¿Cuál fue la media móvil de las distintas acciones?
+# 4. ¿Cuál fue la correlación entre los precios de cierre de las distintas acciones?
+# 4. ¿Cuál es la correlación entre los rendimientos diarios de las distintas acciones?
+# 5. ¿Qué valor ponemos en riesgo al invertir en una determinada acción?
+# 6. ¿Cómo podemos intentar predecir el comportamiento futuro de las acciones?
